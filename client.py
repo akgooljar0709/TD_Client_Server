@@ -1,8 +1,20 @@
 import socket
+import argparse
 
  
 
-msgFromClient       = "Hello UDP Server"
+
+parser = argparse.ArgumentParser(description="Simple File image import")
+    
+parser.add_argument("filen", help="Image file name")
+
+
+args = parser.parse_args()
+    
+filen = args.filen
+
+
+msgFromClient       = filen # image name - for example image.jpeg 
 
 bytesToSend         = str.encode(msgFromClient)
 
@@ -31,3 +43,6 @@ msgFromServer = UDPClientSocket.recvfrom(bufferSize)
 msg = "Message from Server {}".format(msgFromServer[0])
 
 print(msg)
+
+
+    
