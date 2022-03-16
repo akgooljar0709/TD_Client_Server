@@ -26,7 +26,7 @@ python3 server.py
 To run the script on client side:
 
 ```sh
-python3 client.py
+python3 client.py img.jpeg
 ```
 
 
