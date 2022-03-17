@@ -19,14 +19,15 @@ git clone https://github.com/akgooljar0709/TD_Client_Server.git
 We should run the server.py first on the server side
 To run the script on server side:
 
-### To run the application 
-- Run the server.py on the server
-- Enter the port you want to use(eg: 4500)
-- Then run client.py on the client
-- Enter the same ip address display on the server
-- Both the server and the client will be able to communicate
-- The client will need to type the name of the image he wants to download(eg: img.jpg)
-&nbsp;
+### To run the application
+1. We need to change the ip address of the server : To change the ip address
+   we need to change ip on the function ### accept_connections.
+2. Run the server.py on the server
+3. Enter the port you want to use(eg: 4500)
+4. Then run client.py on the client
+5. Enter the same ip address display on the server
+6. Both the server and the client will be able to communicate
+7. The client will need to type the name of the image he wants to download(eg: img.jpg)
 
 
 ## Communication protocole used
