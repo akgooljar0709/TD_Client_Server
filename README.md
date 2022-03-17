@@ -25,7 +25,7 @@ To run the script on server side:
 2. Run the server.py on the server
 3. Enter the port you want to use(eg: 4500)
 4. Then run client.py on the client
-5. Enter the same ip address display on the server
+5. Enter the same ip address and port display on the server
 6. Both the server and the client will be able to communicate
 7. The client will need to type the name of the image he wants to download(eg: img.jpg)
 
