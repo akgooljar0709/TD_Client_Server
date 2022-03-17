@@ -20,19 +20,21 @@ We should run the server.py first on the server side
 To run the script on server side:
 
 ### To run the application 
-1. Run the sever.py on the server
-2. Enter the port you want to use(eg: 5005)
-3. Then run client.py on the client
-4. Enter the same ip address display on the server
-5. Both the server and the client will be able to communicate
-6. The client will need to insert the name of the image he wants to download(eg: img.jpg)
+- Run the server.py on the server
+- Enter the port you want to use(eg: 4500)
+- Then run client.py on the client
+- Enter the same ip address display on the server
+- Both the server and the client will be able to communicate
+- The client will need to type the name of the image he wants to download(eg: img.jpg)
 &nbsp;
 
 
 ## Communication protocole used
 - TCP
 
-TCP stands for Transmission Control Protocol a communications standard that enables application programs and computing devices to exchange messages over a network. It is designed to send packets across the internet and ensure the successful delivery of data and messages over networks.
+TCP stands for Transmission Control Protocol a communications standard that enables application programs and computing devices to exchange messages over a network. 
+
+It is designed to send packets across the internet and ensure the successful delivery of data and messages over networks.
 
 ## client . py Script
 
