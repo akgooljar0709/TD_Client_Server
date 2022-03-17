@@ -4,7 +4,7 @@ communication between the two entities.
 
 
 ## Install the python3 libraries
-To install these services, type the following commands in a terminal:
+To install these libraries, type the following commands in a terminal:
 ```sh
 sudo apt install python3-numpy
 sudo apt install python3-pip
