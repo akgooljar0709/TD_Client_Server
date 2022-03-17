@@ -21,7 +21,7 @@ To run the script on server side:
 
 ### To run the application
 1. We need to change the ip address of the server : To change the ip address
-   we need to change ip on the function ### accept_connections.
+   we need to change ip on the function accept_connections.
 2. Run the server.py on the server
 3. Enter the port you want to use(eg: 4500)
 4. Then run client.py on the client
