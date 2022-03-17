@@ -19,37 +19,32 @@ git clone https://github.com/akgooljar0709/TD_Client_Server.git
 We should run the server.py first on the server side
 To run the script on server side:
 
-```sh
-python3 server.py
-```
-
-To run the script on client side:
-
-```sh
-python3 client.py img.jpeg
-```
+### To run the application 
+1. Run the sever.py on the server
+2. Enter the port you want to use(eg: 5005)
+3. Then run client.py on the client
+4. Enter the same ip address display on the server
+5. Both the server and the client will be able to communicate
+6. The client will need to insert the name of the image he wants to download(eg: img.jpg)
+&nbsp;
 
 
 ## Communication protocole used
-- UDP
+- TCP
 
-The User Datagram Protocol, or UDP, is a communication protocol used across the Internet for especially time-sensitive transmissions such as video playback or DNS lookups. 
-It speeds up communications by not formally establishing a connection before data is transferred.
+TCP stands for Transmission Control Protocol a communications standard that enables application programs and computing devices to exchange messages over a network. It is designed to send packets across the internet and ensure the successful delivery of data and messages over networks.
 
 ## client . py Script
 
 The client.py should be placed on the client side
 It should have the same ip address as the server side.
 
-To change the ip of the script , we need to change the serverAddressPort.
 
 The scripts help to make communications between server and client.
 
 ## server. py Script Installation
 
 The server.py should be placed on the server side.
-
-To change the ip of the script , we need to change the serverAddressPort.
 
 The scripts help to make communications between server and client.
 
